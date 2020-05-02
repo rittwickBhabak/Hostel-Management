@@ -3,5 +3,43 @@
 
 {% block body %}
 
-<h1>this is body</h1>
+
+<div class="row mt-4 d-flex justify-content-around col-lg-12">
+    <div class="card my-3 col-sm-10 col-lg-3" style="height: 220px">
+    <div class="card-body">
+        <h5 class="card-title">Your Meal Status <span class="badge badge-success">ON</span> <span class="badge badge-danger">OFF</span></h5>
+        <h6 class="card-subtitle mb-2 text-muted">Today's Menu(Veg)</h6>
+        <p class="card-text">Rice, Dal, Aloo Chooka, Paneer, Rasgulla(2)</p>
+        <a href="#" class="card-link">Change Meal Status?</a><br>
+        <a href="#" class="card-link">Change Veg/Non-veg?</a>
+    </div>
+    </div>
+    <div class="card my-3 col-sm-10 col-lg-3" style="height:220px;">
+    <div class="card-body">
+        <h5 class="card-title text-center">Today</h5>
+        <h6 class="card-subtitle mb-4">Veg Meal: 10</h6>
+        <h6 class="card-subtitle mb-4">Non-veg Meal: 70</h6>
+        <h6 class="card-subtitle mb-4">Total Meal: 80</h6>
+        <h6 class="card-subtitle mb-4">Present student: 90</h6>
+    </div>
+    </div>
+    <div class="card my-3 col-sm-10 col-lg-2" style="height: 220px">
+    <div class="card-body">
+        <h5 class="card-title">Veg Meal</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Today's Menu(Veg)</h6>
+        <p class="card-text">Rice, Dal, Aloo Chooka, Paneer, Rasgulla(2)</p>
+        
+    </div>
+    </div>
+    <div class="card my-3 col-sm-10 col-lg-2" style="height: 220px">
+    <div class="card-body">
+        <h5 class="card-title">Non-veg Meal</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Today's Menu(Non-veg)</h6>
+        <p class="card-text">Rice, Dal, Aloo Chooka, Paneer, Rasgulla(2)</p>
+        
+    </div>
+    </div>
+</div>
+
+
 {% endblock body %}
